@@ -1,5 +1,4 @@
 function divide(numerator, denominator) {
-
     if (typeof numerator !== "number" || typeof denominator !== "number") {
         throw new Error("arguments must be numbers");
     }
@@ -7,7 +6,6 @@ function divide(numerator, denominator) {
     if (denominator === 0) {
         throw new Error("division by zero is prohibited");
     }
-
     return numerator / denominator;
 }
 
